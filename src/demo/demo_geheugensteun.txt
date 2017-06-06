@@ -1,0 +1,17 @@
+Demonstratie
+------------
+
+! Begin met alle speciale functies uit te zetten
+
+- Gouraud en Phong Test
+-- Aan/uitzetten interpolatie
+-- Diffuse/Phong apart laten zien
+
+- Enkele scenes met gemanipuleerde objecten
+!! mat2 foutje out rotationNode
+-- bumpyrock
+-- rotations
+
+- Anti-Aliasing laten zien (AATest)
+
+- Bump mapping = venus demo

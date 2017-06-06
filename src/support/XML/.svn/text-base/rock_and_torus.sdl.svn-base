@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE Sdl SYSTEM "sdl.dtd">
+
+<Sdl>
+   <Cameras>
+      <Camera position="10 10 10" direction="-5 -5 -5" up="0 1 0" fovy="45" name="cam0" />
+   </Cameras>
+
+   <Lights>
+      <PointLight position="10 10 0" intensity="1" color="1 0 0" name="light0" />
+      <PointLight position="0 10 10" intensity="1" color="0 0 1" name="light1" />
+   </Lights>
+   
+   <Geometry>
+	   <Sphere radius="0.5" name="sph1" />
+	   <Torus innerRadius="0.5" outerRadius="3" name="tor1" />
+   </Geometry>
+   
+   <Materials>
+      <DiffuseMaterial color="0.75 0.75 1" name="dif0"/>
+   </Materials>
+   
+   <Scene camera="cam0" lights="light0,light1" background="0.3 0.3 0.3">
+   <Scale scale="2 3 4">
+   <Shape geometry="sph1" material="dif0"/>
+   </Scale>
+   <Translate vector="0 5 0">
+   <Scale scale="1 1.5 1">
+   <Shape geometry="tor1" material="dif0"/>
+   </Scale>
+   </Translate>
+   </Scene>
+</Sdl>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/forceflow/!svn/ver/1795/cg/src/support/XML
+END
+test.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/forceflow/!svn/ver/1794/cg/src/support/XML/test.sdl
+END
+rotations.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/forceflow/!svn/ver/1795/cg/src/support/XML/rotations.sdl
+END
+example.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/forceflow/!svn/ver/1675/cg/src/support/XML/example.sdl
+END
+sdl.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/forceflow/!svn/ver/1675/cg/src/support/XML/sdl.dtd
+END
+bumpyrock.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/forceflow/!svn/ver/1790/cg/src/support/XML/bumpyrock.sdl
+END
+rotated_objects.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/forceflow/!svn/ver/1794/cg/src/support/XML/rotated_objects.sdl
+END
+rock_and_torus.sdl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/forceflow/!svn/ver/1790/cg/src/support/XML/rock_and_torus.sdl
+END

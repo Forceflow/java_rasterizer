@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE Sdl SYSTEM "sdl.dtd">
+
+<Sdl>
+   <Cameras>
+      <Camera position="8 8 8" direction="-5 -5 -5" up="0 1 0" fovy="45" name="cam0" />
+   </Cameras>
+
+   <Lights>
+      <PointLight position="10 10 0" intensity="1" color="1 0 0" name="light0" />
+      <PointLight position="0 10 10" intensity="1" color="0 0 1" name="light1" />
+      <PointLight position="10 10 10" intensity="1" color="0 1 0" name="light2" />
+   </Lights>
+   
+   <Geometry>
+	   <Sphere radius="0.5" name="sph1" />
+	   <Torus innerRadius="0.5" outerRadius="3" name="tor1" />
+	   <Teapot size="1" name="tea1" />
+	   <Cone radius="1" height="1" capped="true" name="con1" />
+   </Geometry>
+   
+   <Materials>
+      <DiffuseMaterial color="1 1 1" name="dif0"/>
+      <DiffuseMaterial color="0 0 1" name="dif1"/>
+   </Materials>
+   
+   <Scene camera="cam0" lights="light0,light1,light2" background="0.3 0.3 0.3">
+   <Scale scale="1 2 3">
+   <Shape geometry="sph1" material="dif0"/>
+   </Scale>
+   <Translate vector="0 3 -4">
+   <Scale scale="2 2 3">
+   <Shape geometry="tor1" material="dif0"/>
+   </Scale>
+   </Translate>
+   <Translate vector="-4 0 1">
+   <Rotate axis="1 0 0" angle="45">
+   <Shape geometry="tea1" material="dif0"/>
+   </Rotate>
+   </Translate>
+   <Translate vector="0 -3 3">
+   <Rotate axis="1 0 0" angle="20">
+   <Shape geometry="con1" material="dif0"/>
+   </Rotate>
+   </Translate>
+   </Scene>
+</Sdl>
